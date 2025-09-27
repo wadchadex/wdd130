@@ -16,15 +16,48 @@ header {
     text-align: center;
     font-size: 1.5rem;
 }
+nav {
+    background-color: #444;
+    padding: 10px;
+}
 
+nav a {
+    color: #fff;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+} 
 main {
     width: 400px;
     margin: 0 auto;
+    max-width: 600px;
 }
 
+main img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 30px #333;
+}
+
+aside {
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid #888;
+    padding: 10px;
+    background-color: #dde;
+    color: #222;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
 h1 {
     margin: 10px;
     text-align: center;
+    color: #222;
 }
 
 h2 {
@@ -55,4 +88,7 @@ ul {
 
 footer { 
     font-size: 0.9rem;
-}
+    margin-top: 30px;
+    border-top: 2px solid #333;
+    text-align: center;
+}  
